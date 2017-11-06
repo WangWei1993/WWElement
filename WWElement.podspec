@@ -80,7 +80,7 @@ s.description  = 将开发中常用的方法封装成一下。
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "https://github.com/WangWei1993/WWElement.git", :tag => "" }
+  s.source       = { :git => "https://github.com/WangWei1993/WWElement.git", :tag => "0.0.1" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
