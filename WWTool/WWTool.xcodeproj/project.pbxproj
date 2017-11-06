@@ -16,6 +16,7 @@
 		4A08DAD01FB031A200EE2E49 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A08DACF1FB031A200EE2E49 /* main.m */; };
 		4A08DADA1FB031A200EE2E49 /* WWToolTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A08DAD91FB031A200EE2E49 /* WWToolTests.m */; };
 		4A08DAE51FB031A300EE2E49 /* WWToolUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A08DAE41FB031A300EE2E49 /* WWToolUITests.m */; };
+		4A08DAFC1FB04FF300EE2E49 /* WWSaveUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A08DAFB1FB04FF300EE2E49 /* WWSaveUtils.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,7 +54,9 @@
 		4A08DAE01FB031A300EE2E49 /* WWToolUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WWToolUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4A08DAE41FB031A300EE2E49 /* WWToolUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WWToolUITests.m; sourceTree = "<group>"; };
 		4A08DAE61FB031A300EE2E49 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		4A08DAF31FB031B300EE2E49 /* WWElement.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WWElement.h; sourceTree = "<group>"; };
+		4A08DAF51FB04E6D00EE2E49 /* WWElement.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WWElement.h; sourceTree = "<group>"; };
+		4A08DAFA1FB04FF300EE2E49 /* WWSaveUtils.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WWSaveUtils.h; sourceTree = "<group>"; };
+		4A08DAFB1FB04FF300EE2E49 /* WWSaveUtils.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WWSaveUtils.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,7 +107,7 @@
 		4A08DABC1FB031A200EE2E49 /* WWTool */ = {
 			isa = PBXGroup;
 			children = (
-				4A08DAF21FB031B300EE2E49 /* WWTool */,
+				4A08DAF41FB04E6D00EE2E49 /* WWElement */,
 				4A08DABD1FB031A200EE2E49 /* AppDelegate.h */,
 				4A08DABE1FB031A200EE2E49 /* AppDelegate.m */,
 				4A08DAC01FB031A200EE2E49 /* ViewController.h */,
@@ -137,13 +140,15 @@
 			path = WWToolUITests;
 			sourceTree = "<group>";
 		};
-		4A08DAF21FB031B300EE2E49 /* WWTool */ = {
+		4A08DAF41FB04E6D00EE2E49 /* WWElement */ = {
 			isa = PBXGroup;
 			children = (
-				4A08DAF31FB031B300EE2E49 /* WWElement.h */,
+				4A08DAF51FB04E6D00EE2E49 /* WWElement.h */,
+				4A08DAFA1FB04FF300EE2E49 /* WWSaveUtils.h */,
+				4A08DAFB1FB04FF300EE2E49 /* WWSaveUtils.m */,
 			);
-			path = WWTool;
-			sourceTree = "<group>";
+			path = WWElement;
+			sourceTree = SOURCE_ROOT;
 		};
 /* End PBXGroup section */
 
@@ -278,6 +283,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4A08DAFC1FB04FF300EE2E49 /* WWSaveUtils.m in Sources */,
 				4A08DAC21FB031A200EE2E49 /* ViewController.m in Sources */,
 				4A08DAC81FB031A200EE2E49 /* WWTool.xcdatamodeld in Sources */,
 				4A08DAD01FB031A200EE2E49 /* main.m in Sources */,
