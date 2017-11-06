@@ -16,19 +16,20 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "WWElement"
-  s.version      = "0.0.1"
-  s.summary      = "开发中常用的一些工具"
+  s.version      = "v0.0.1"
+  s.summary      = "A short description of WWElement."
 
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
   #   * Try to keep it short, snappy and to the point.
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
-s.description  = 将开发中常用的方法封装成一下。
-方便以后在其他App中使用；在公司开发新项目的时候，提高业务逻辑的开发效率，节约开发时间，组件化管理代码
+  s.description  = <<-DESC
+
+hshsh
                    DESC
 
-  s.homepage     = "http://EXAMPLE/WWElement"
+  s.homepage     = "https://github.com/WangWei1993/WWElement"
   # s.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
 
@@ -53,10 +54,10 @@ s.description  = 将开发中常用的方法封装成一下。
   #  profile URL.
   #
 
-  s.author             = { "王伟" => "wei.wang@magicwindow.cn" }
-  # Or just: s.author    = "王伟"
-  # s.authors            = { "王伟" => "wei.wang@magicwindow.cn" }
-  # s.social_media_url   = "http://twitter.com/王伟"
+  s.author             = { "WangWei1993" => "605479355@qq.com" }
+  # Or just: s.author    = "605479355@qq.com"
+  # s.authors            = { "" => "" }
+  # s.social_media_url   = ""
 
   # ――― Platform Specifics ――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
@@ -80,7 +81,7 @@ s.description  = 将开发中常用的方法封装成一下。
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "https://github.com/WangWei1993/WWElement.git", :tag => "0.0.1" }
+  s.source       = { :git => "https://github.com/WangWei1993/WWElement.git", :tag => "v0.0.1" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -91,7 +92,7 @@ s.description  = 将开发中常用的方法封装成一下。
   #  Not including the public_header_files will make all headers public.
   #
 
-  s.source_files  = "Classes", "Classes/**/*.{h,m}"
+  s.source_files  = "WWTool"
   s.exclude_files = "Classes/Exclude"
 
   # s.public_header_files = "Classes/**/*.h"
@@ -117,8 +118,8 @@ s.description  = 将开发中常用的方法封装成一下。
   #  the lib prefix of their name.
   #
 
-  # s.framework  = "UIKit"
-  # s.frameworks = "", ""
+  # s.framework  = "SomeFramework"
+  # s.frameworks = "SomeFramework", "AnotherFramework"
 
   # s.library   = "iconv"
   # s.libraries = "iconv", "xml2"
@@ -133,6 +134,6 @@ s.description  = 将开发中常用的方法封装成一下。
   # s.requires_arc = true
 
   # s.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
-  # s.dependency "", ""
+  # s.dependency "JSONKit", "~> 1.4"
 
 end
