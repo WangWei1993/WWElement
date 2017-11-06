@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "WWElement"
-  s.version      = "v0.0.1"
+  s.version      = "v0.0.2"
   s.summary      = "A short description of WWElement."
 
   # This description is used to generate tags and improve search results.
@@ -81,7 +81,7 @@ hshsh
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "https://github.com/WangWei1993/WWElement.git", :tag => "v0.0.1" }
+  s.source       = { :git => "https://github.com/WangWei1993/WWElement.git", :tag => "v0.0.2" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -92,7 +92,7 @@ hshsh
   #  Not including the public_header_files will make all headers public.
   #
 
-  s.source_files  = "WWTool"
+  s.source_files  = "WWTool/WWElement"
   s.exclude_files = "Classes/Exclude"
 
   # s.public_header_files = "Classes/**/*.h"
