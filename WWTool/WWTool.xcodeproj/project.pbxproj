@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4A02BFCA1FB554CA0058BBCA /* WWCommonUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A02BFC91FB554CA0058BBCA /* WWCommonUtils.m */; };
+		4A0818CF1FB981810085EBA5 /* UIImage+Rock.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A0818CE1FB981800085EBA5 /* UIImage+Rock.m */; };
+		4A0818D31FB98D9E0085EBA5 /* NSString+Rock.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A0818D21FB98D9E0085EBA5 /* NSString+Rock.m */; };
 		4A08DABF1FB031A200EE2E49 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A08DABE1FB031A200EE2E49 /* AppDelegate.m */; };
 		4A08DAC21FB031A200EE2E49 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A08DAC11FB031A200EE2E49 /* ViewController.m */; };
 		4A08DAC51FB031A200EE2E49 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4A08DAC31FB031A200EE2E49 /* Main.storyboard */; };
@@ -16,7 +19,12 @@
 		4A08DAD01FB031A200EE2E49 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A08DACF1FB031A200EE2E49 /* main.m */; };
 		4A08DADA1FB031A200EE2E49 /* WWToolTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A08DAD91FB031A200EE2E49 /* WWToolTests.m */; };
 		4A08DAE51FB031A300EE2E49 /* WWToolUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A08DAE41FB031A300EE2E49 /* WWToolUITests.m */; };
-		4A08DAFC1FB04FF300EE2E49 /* WWSaveUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A08DAFB1FB04FF300EE2E49 /* WWSaveUtils.m */; };
+		4AC0E8921FBAD793000AAE19 /* NSObject+Rock.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AC0E8911FBAD793000AAE19 /* NSObject+Rock.m */; };
+		4AC0E89A1FBB067B000AAE19 /* WWWebController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4AC0E8951FBB03E9000AAE19 /* WWWebController.storyboard */; };
+		4AC0E89B1FBB0680000AAE19 /* WWWebView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AC0E8961FBB03E9000AAE19 /* WWWebView.m */; };
+		4AC0E89C1FBB0687000AAE19 /* WWWebController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AC0E8991FBB03E9000AAE19 /* WWWebController.m */; };
+		4AC0E89D1FBB068E000AAE19 /* WWSaveUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A08DB3E1FB065A000EE2E49 /* WWSaveUtils.m */; };
+		4AC0E8A11FBB071F000AAE19 /* UIView+WWAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AC0E8A01FBB071F000AAE19 /* UIView+WWAdd.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +45,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4A02BFC81FB554CA0058BBCA /* WWCommonUtils.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WWCommonUtils.h; sourceTree = "<group>"; };
+		4A02BFC91FB554CA0058BBCA /* WWCommonUtils.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WWCommonUtils.m; sourceTree = "<group>"; };
+		4A02BFCB1FB554F00058BBCA /* WWDefine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WWDefine.h; sourceTree = "<group>"; };
+		4A0818CD1FB981800085EBA5 /* UIImage+Rock.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImage+Rock.h"; sourceTree = "<group>"; };
+		4A0818CE1FB981800085EBA5 /* UIImage+Rock.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Rock.m"; sourceTree = "<group>"; };
+		4A0818D11FB98D9E0085EBA5 /* NSString+Rock.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+Rock.h"; sourceTree = "<group>"; };
+		4A0818D21FB98D9E0085EBA5 /* NSString+Rock.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+Rock.m"; sourceTree = "<group>"; };
 		4A08DABA1FB031A200EE2E49 /* WWTool.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WWTool.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4A08DABD1FB031A200EE2E49 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		4A08DABE1FB031A200EE2E49 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -55,8 +70,21 @@
 		4A08DAE41FB031A300EE2E49 /* WWToolUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WWToolUITests.m; sourceTree = "<group>"; };
 		4A08DAE61FB031A300EE2E49 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4A08DAF51FB04E6D00EE2E49 /* WWElement.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WWElement.h; sourceTree = "<group>"; };
-		4A08DAFA1FB04FF300EE2E49 /* WWSaveUtils.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WWSaveUtils.h; sourceTree = "<group>"; };
-		4A08DAFB1FB04FF300EE2E49 /* WWSaveUtils.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WWSaveUtils.m; sourceTree = "<group>"; };
+		4A08DAFE1FB0653E00EE2E49 /* CALayer+YYAdd.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CALayer+YYAdd.h"; sourceTree = "<group>"; };
+		4A08DAFF1FB0653E00EE2E49 /* CALayer+YYAdd.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "CALayer+YYAdd.m"; sourceTree = "<group>"; };
+		4A08DB001FB0653E00EE2E49 /* YYCGUtilities.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YYCGUtilities.h; sourceTree = "<group>"; };
+		4A08DB011FB0653E00EE2E49 /* YYCGUtilities.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YYCGUtilities.m; sourceTree = "<group>"; };
+		4A08DB3D1FB065A000EE2E49 /* WWSaveUtils.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WWSaveUtils.h; sourceTree = "<group>"; };
+		4A08DB3E1FB065A000EE2E49 /* WWSaveUtils.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WWSaveUtils.m; sourceTree = "<group>"; };
+		4AC0E8901FBAD793000AAE19 /* NSObject+Rock.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+Rock.h"; sourceTree = "<group>"; };
+		4AC0E8911FBAD793000AAE19 /* NSObject+Rock.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Rock.m"; sourceTree = "<group>"; };
+		4AC0E8951FBB03E9000AAE19 /* WWWebController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = WWWebController.storyboard; sourceTree = "<group>"; };
+		4AC0E8961FBB03E9000AAE19 /* WWWebView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WWWebView.m; sourceTree = "<group>"; };
+		4AC0E8971FBB03E9000AAE19 /* WWWebController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WWWebController.h; sourceTree = "<group>"; };
+		4AC0E8981FBB03E9000AAE19 /* WWWebView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WWWebView.h; sourceTree = "<group>"; };
+		4AC0E8991FBB03E9000AAE19 /* WWWebController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WWWebController.m; sourceTree = "<group>"; };
+		4AC0E89F1FBB071F000AAE19 /* UIView+WWAdd.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+WWAdd.h"; sourceTree = "<group>"; };
+		4AC0E8A01FBB071F000AAE19 /* UIView+WWAdd.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+WWAdd.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +112,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4A0818CA1FB980820085EBA5 /* UIImage */ = {
+			isa = PBXGroup;
+			children = (
+				4A0818CD1FB981800085EBA5 /* UIImage+Rock.h */,
+				4A0818CE1FB981800085EBA5 /* UIImage+Rock.m */,
+			);
+			path = UIImage;
+			sourceTree = "<group>";
+		};
 		4A08DAB11FB031A200EE2E49 = {
 			isa = PBXGroup;
 			children = (
@@ -143,12 +180,88 @@
 		4A08DAF41FB04E6D00EE2E49 /* WWElement */ = {
 			isa = PBXGroup;
 			children = (
+				4A08DB3C1FB065A000EE2E49 /* Utility */,
+				4A08DB1F1FB0653E00EE2E49 /* Foundation */,
+				4A08DAFD1FB0653E00EE2E49 /* Quartz */,
+				4A08DB021FB0653E00EE2E49 /* UIKit */,
 				4A08DAF51FB04E6D00EE2E49 /* WWElement.h */,
-				4A08DAFA1FB04FF300EE2E49 /* WWSaveUtils.h */,
-				4A08DAFB1FB04FF300EE2E49 /* WWSaveUtils.m */,
 			);
 			path = WWElement;
 			sourceTree = SOURCE_ROOT;
+		};
+		4A08DAFD1FB0653E00EE2E49 /* Quartz */ = {
+			isa = PBXGroup;
+			children = (
+				4A08DAFE1FB0653E00EE2E49 /* CALayer+YYAdd.h */,
+				4A08DAFF1FB0653E00EE2E49 /* CALayer+YYAdd.m */,
+				4A08DB001FB0653E00EE2E49 /* YYCGUtilities.h */,
+				4A08DB011FB0653E00EE2E49 /* YYCGUtilities.m */,
+			);
+			path = Quartz;
+			sourceTree = "<group>";
+		};
+		4A08DB021FB0653E00EE2E49 /* UIKit */ = {
+			isa = PBXGroup;
+			children = (
+				4AC0E89E1FBB06E8000AAE19 /* UIView */,
+				4A0818CA1FB980820085EBA5 /* UIImage */,
+			);
+			path = UIKit;
+			sourceTree = "<group>";
+		};
+		4A08DB1F1FB0653E00EE2E49 /* Foundation */ = {
+			isa = PBXGroup;
+			children = (
+				4A0818D11FB98D9E0085EBA5 /* NSString+Rock.h */,
+				4A0818D21FB98D9E0085EBA5 /* NSString+Rock.m */,
+				4AC0E8901FBAD793000AAE19 /* NSObject+Rock.h */,
+				4AC0E8911FBAD793000AAE19 /* NSObject+Rock.m */,
+			);
+			name = Foundation;
+			path = "../../../../Downloads/YYCategories-master/YYCategories/Foundation";
+			sourceTree = "<group>";
+		};
+		4A08DB3C1FB065A000EE2E49 /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				4AC0E8931FBAECB1000AAE19 /* UIUnit */,
+				4A02BFCB1FB554F00058BBCA /* WWDefine.h */,
+				4A08DB3D1FB065A000EE2E49 /* WWSaveUtils.h */,
+				4A08DB3E1FB065A000EE2E49 /* WWSaveUtils.m */,
+				4A02BFC81FB554CA0058BBCA /* WWCommonUtils.h */,
+				4A02BFC91FB554CA0058BBCA /* WWCommonUtils.m */,
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
+		4AC0E8931FBAECB1000AAE19 /* UIUnit */ = {
+			isa = PBXGroup;
+			children = (
+				4AC0E8941FBAF0CA000AAE19 /* WebView */,
+			);
+			path = UIUnit;
+			sourceTree = "<group>";
+		};
+		4AC0E8941FBAF0CA000AAE19 /* WebView */ = {
+			isa = PBXGroup;
+			children = (
+				4AC0E8981FBB03E9000AAE19 /* WWWebView.h */,
+				4AC0E8961FBB03E9000AAE19 /* WWWebView.m */,
+				4AC0E8971FBB03E9000AAE19 /* WWWebController.h */,
+				4AC0E8991FBB03E9000AAE19 /* WWWebController.m */,
+				4AC0E8951FBB03E9000AAE19 /* WWWebController.storyboard */,
+			);
+			path = WebView;
+			sourceTree = "<group>";
+		};
+		4AC0E89E1FBB06E8000AAE19 /* UIView */ = {
+			isa = PBXGroup;
+			children = (
+				4AC0E89F1FBB071F000AAE19 /* UIView+WWAdd.h */,
+				4AC0E8A01FBB071F000AAE19 /* UIView+WWAdd.m */,
+			);
+			path = UIView;
+			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
@@ -256,6 +369,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4AC0E89A1FBB067B000AAE19 /* WWWebController.storyboard in Resources */,
 				4A08DACD1FB031A200EE2E49 /* LaunchScreen.storyboard in Resources */,
 				4A08DACA1FB031A200EE2E49 /* Assets.xcassets in Resources */,
 				4A08DAC51FB031A200EE2E49 /* Main.storyboard in Resources */,
@@ -283,9 +397,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4A08DAFC1FB04FF300EE2E49 /* WWSaveUtils.m in Sources */,
+				4AC0E89D1FBB068E000AAE19 /* WWSaveUtils.m in Sources */,
+				4AC0E89C1FBB0687000AAE19 /* WWWebController.m in Sources */,
+				4AC0E89B1FBB0680000AAE19 /* WWWebView.m in Sources */,
+				4AC0E8A11FBB071F000AAE19 /* UIView+WWAdd.m in Sources */,
+				4A02BFCA1FB554CA0058BBCA /* WWCommonUtils.m in Sources */,
 				4A08DAC21FB031A200EE2E49 /* ViewController.m in Sources */,
+				4A0818CF1FB981810085EBA5 /* UIImage+Rock.m in Sources */,
 				4A08DAC81FB031A200EE2E49 /* WWTool.xcdatamodeld in Sources */,
+				4AC0E8921FBAD793000AAE19 /* NSObject+Rock.m in Sources */,
+				4A0818D31FB98D9E0085EBA5 /* NSString+Rock.m in Sources */,
 				4A08DAD01FB031A200EE2E49 /* main.m in Sources */,
 				4A08DABF1FB031A200EE2E49 /* AppDelegate.m in Sources */,
 			);
@@ -457,6 +578,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = safetyWifi.weiwang.com.WWTool;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
+				WARNING_CFLAGS = "";
 			};
 			name = Debug;
 		};
@@ -471,6 +593,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = safetyWifi.weiwang.com.WWTool;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
+				WARNING_CFLAGS = "";
 			};
 			name = Release;
 		};

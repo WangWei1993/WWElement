@@ -10,9 +10,18 @@
 #define WWElement_h
 
 // Foundation
+#import "NSString+Rock.h"
+#import "NSObject+Rock.h"
 
 // UIKit
+#import "UIImage+Rock.h"
+#import "UIView+Rock.h"
+
 
 // WWToolUtils
+#import "WWSaveUtils.h"
+#import "WWCommonUtils.h"
+#import "WWWebView.h"
+#import "WWWebController.h"
 
 #endif /* WWElement_h */
